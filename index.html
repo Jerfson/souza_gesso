@@ -1,57 +1,176 @@
-<!doctype html>
-<html lang="pt-BR" className="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Especialistas em Gesso e Drywall em Santo Amaro - MA. Forros, sancas, molduras e acabamentos de alto padrão." />
-    <title>Souza Gesso | Especialistas em Gesso e Drywall no Maranhão</title>
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SOUZA GESSO - Arte em Gesso Alto Padrão</title>
 
-    <!-- Canonical Tag -->
-    <link rel="canonical" href="https://www.souzagesso.com.br/" />
+    <!-- Tailwind Configuração via CDN para estilos utilitários em qualquer ambiente -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.souzagesso.com.br/" />
-    <meta property="og:title" content="Souza Gesso | Especialistas em Gesso e Drywall" />
-    <meta property="og:description" content="Transformamos ambientes com projetos de gesso modernos e sofisticados em Santo Amaro - MA." />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+    <!-- Ícones - Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://www.souzagesso.com.br/" />
-    <meta property="twitter:title" content="Souza Gesso | Especialistas em Gesso e Drywall" />
-    <meta property="twitter:description" content="Transformamos ambientes com projetos de gesso modernos e sofisticados em Santo Amaro - MA." />
-    <meta property="twitter:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
+    <!-- Fontes Premium: Inter & JetBrains Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
 
-    <!-- Schema.org LocalBusiness -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Souza Gesso",
-      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-      "@id": "https://www.souzagesso.com.br/",
-      "url": "https://www.souzagesso.com.br/",
-      "telephone": "+559884832765",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Rua Boa Esperança",
-        "addressLocality": "Santo Amaro",
-        "addressRegion": "MA",
-        "addressCountry": "BR"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "08:00",
-        "closes": "18:00"
-      }
-    }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Estilos Fundamentais Aura v6 Design System -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="selection:bg-black selection:text-white">
+
+    <!-- Fixed Overlay Grid Estético -->
+    <div class="fixed inset-0 pointer-events-none z-0 flex justify-center px-4 md:px-12">
+        <div class="w-full h-full border-x border-dashed border-black/5 max-w-[1440px] grid grid-cols-4 md:grid-cols-12 gap-4 relative">
+            <div class="hidden md:block col-span-3 h-full border-r border-dashed border-black/5"></div>
+            <div class="hidden md:block col-span-6 h-full border-r border-dashed border-black/5"></div>
+        </div>
+    </div>
+
+    <!-- Navegação Opcional para compor visualmente a tela -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-white/60 backdrop-blur-xl border-b border-black/5 motion-enter active">
+        <div class="max-w-[1440px] mx-auto px-6 md:px-12 h-24 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <span class="font-bold tracking-tighter text-2xl uppercase">Souza Gesso<span class="text-neutral-400 font-light">.</span></span>
+            </div>
+            <nav class="hidden md:flex gap-10">
+                <a href="#" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Serviços</a>
+                <a href="#" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Portfólio</a>
+                <a href="#" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Contato</a>
+            </nav>
+            <button class="px-8 py-3 bg-black text-white rounded-full text-xs font-mono uppercase tracking-widest hover:bg-neutral-800 transition-colors shadow-lg shadow-black/10 hover:-translate-y-0.5 transform">
+                Orçamento
+            </button>
+        </div>
+    </header>
+
+    <main class="relative z-10 pt-32 pb-48 overflow-hidden">
+        
+        <!-- HERO SECTION -->
+        <section class="min-h-[85vh] max-w-[1440px] mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center relative gap-16 lg:gap-12 mt-12">
+            
+            <!-- Dynamic Background Effects -->
+            <div class="absolute inset-0 z-0 pointer-events-none">
+                <div class="absolute top-10 -left-20 w-[500px] h-[500px] bg-gradient-to-tr from-neutral-200/40 to-white rounded-full blur-[120px] animate-pulse"></div>
+            </div>
+
+            <!-- ==========================================
+                 COLUNA ESQUERDA: Lettering e Botões 
+                 ========================================== -->
+            <div class="w-full lg:w-5/12 relative z-10 flex flex-col justify-center left-col-content">
+                
+                <!-- Badge Superior -->
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-black/10 bg-white/50 backdrop-blur mb-10 motion-enter delay-100 w-max shadow-sm">
+                    <div class="w-2 h-2 rounded-full bg-black animate-pulse"></div>
+                    <span class="text-[10px] font-mono uppercase tracking-[0.2em] text-neutral-700">Acabamento de Alto Padrão</span>
+                </div>
+
+                <!-- Main Title: Lettering ao Lado -->
+                <h1 class="text-6xl sm:text-7xl lg:text-[5.5rem] font-bold tracking-tighter leading-[1] mb-8 text-neutral-900">
+                    <div class="hero-text-mask pb-2"><span class="block">Arte em</span></div><br>
+                    <div class="hero-text-mask group cursor-default pb-2">
+                        <!-- Efeito de Outline/Fill dinâmico no hover -->
+                        <span class="block text-transparent-stroke" data-text="Gesso">Gesso</span>
+                    </div>
+                </h1>
+
+                <!-- Subtítulo -->
+                <p class="text-lg text-neutral-500 mb-12 font-light leading-relaxed motion-enter delay-300 max-w-md pr-4">
+                    Transformando ambientes através do design. Soluções premium com dry-wall, sancas iluminadas e finalização impecável que valoriza seu patrimônio.
+                </p>
+
+                <!-- Botões Abaixo -->
+                <div class="flex flex-col sm:flex-row gap-5 motion-enter delay-500 items-start">
+                    <!-- Botão Primário c/ Animação Halo/Beam -->
+                    <button class="beam-btn group w-full sm:w-auto">
+                        <div class="beam-spinner"></div>
+                        <div class="beam-btn-content flex items-center gap-3 w-full sm:w-auto justify-center">
+                            <span>Ver Especialidades</span>
+                            <iconify-icon icon="solar:arrow-right-linear" class="text-lg group-hover:translate-x-1 transition-transform"></iconify-icon>
+                        </div>
+                    </button>
+                    <!-- Botão Secundário Minimalista -->
+                    <button class="px-8 py-[18px] border border-neutral-200 text-neutral-900 rounded-full text-xs font-mono uppercase tracking-widest hover:border-black hover:bg-neutral-50 transition-all inline-flex items-center justify-center gap-3 w-full sm:w-auto">
+                        <iconify-icon icon="solar:phone-calling-linear" class="text-lg"></iconify-icon>
+                        <span>WhatsApp</span>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- ==========================================
+                 COLUNA DIREITA: Imagem Parallax e Detalhes
+                 ========================================== -->
+            <div class="w-full lg:w-7/12 relative z-10 h-[65vh] lg:h-[85vh] flex items-center justify-end">
+                
+                <!-- Wrapper com overflow escondido para o Parallax Mágico -->
+                <div class="parallax-wrap w-full h-full lg:w-[95%] lg:h-[95%] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] relative">
+                    
+                    <!-- Imagem de Luxo / Gesso - É aqui que a mágica GSAP acontece -->
+                    <img src="https://images.unsplash.com/photo-1600566753086-00f18efc204b?auto=format&fit=crop&q=80" alt="Souza Gesso Interior Design" class="parallax-image" id="hero-img" />
+                    
+                    <!-- Gradiente sutil para garantir contraste do texto flutuante -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none"></div>
+                    
+                    <!-- Detalhes à Direita (Glow Cards translúcidos sobrepostos) -->
+                    <div class="absolute bottom-6 left-6 right-6 lg:bottom-10 lg:left-10 lg:right-10 flex flex-col sm:flex-row gap-4">
+                        
+                        <div class="glow-card bg-black/20 backdrop-blur-xl p-6 rounded-2xl flex-1 border border-white/10 text-white motion-enter delay-500 group">
+                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center mb-4 border border-white/20">
+                                <iconify-icon icon="solar:ruler-pen-linear" class="text-xl"></iconify-icon>
+                            </div>
+                            <h3 class="font-medium text-sm tracking-wide mb-2 uppercase">Precisão Absoluta</h3>
+                            <p class="text-sm font-light text-white/70 leading-relaxed">Projetos cortados e montados com medidas exatas para alinhamento perfeito.</p>
+                        </div>
+
+                        <div class="glow-card bg-black/20 backdrop-blur-xl p-6 rounded-2xl flex-1 border border-white/10 text-white motion-enter delay-700 group">
+                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center mb-4 border border-white/20">
+                                <iconify-icon icon="solar:verified-check-linear" class="text-xl"></iconify-icon>
+                            </div>
+                            <h3 class="font-medium text-sm tracking-wide mb-2 uppercase">Durabilidade</h3>
+                            <p class="text-sm font-light text-white/70 leading-relaxed">Estruturas anti-trinca usando os melhores materiais disponíveis no mercado.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Badge Flutuante no Topo (Criando profundidade lateral) -->
+                    <div class="absolute top-8 right-8 motion-enter delay-[800ms]">
+                        <div class="bg-black/30 backdrop-blur-xl border border-white/10 rounded-full px-6 py-3 flex items-center gap-3 text-white shadow-xl">
+                            <span class="relative flex h-3 w-3">
+                              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-40"></span>
+                              <span class="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+                            </span>
+                            <span class="text-xs font-mono tracking-widest uppercase">Estética Premium</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Seção invisível apenas para adicionar área de rolagem para ver o Parallax -->
+        <section class="max-w-[1440px] mx-auto px-6 md:px-12 py-40 mt-32 text-center opacity-40">
+            <iconify-icon icon="solar:mouse-circle-linear" class="text-5xl text-neutral-400 mb-6 animate-bounce"></iconify-icon>
+            <h2 class="text-xl font-light font-mono uppercase tracking-[0.2em] mb-2">Role a tela</h2>
+            <p class="text-neutral-500">Note o comportamento avançado de parallax e smooth scroll.</p>
+        </section>
+
+    </main>
+
+    <!-- BIBLIOTECAS (CDNs) ESSENCIAIS PARA EXPERIÊNCIA APPLE (Recomendação baseada no pedido) -->
+
+    <!-- 1. Lenis (Studio Freight): O melhor e mais leve motor de 'Smooth Scroll' para dar fluidez à página -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    
+    <!-- 2. GSAP (Core): Biblioteca nº 1 para animações performáticas complexas com Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <!-- 3. ScrollTrigger (GSAP Plugin): Perfeito para conectar propriedades CSS ao Scroll do rato (Parallax) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Scripts Customizados -->
+    <script src="js/main.js"></script>
+</body>
 </html>
-
