@@ -1,0 +1,468 @@
+﻿node.exe : > [debug] [2026-03-18T22:00:12.391Z] 
+Vercel CLI 50.33.1
+No linha:1 caractere:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Users\jerfs\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (> [debug 
+   ] [2026...cel CLI 50.33.1:String) [], RemoteExcep  
+  tion
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+> [debug] [2026-03-18T22:00:12.394Z] 
+Agent/TTY/nonInteractive: isAgent=true 
+agentName=antigravity stdin.isTTY=true 
+--non-interactive=false explicitFalse=false => 
+nonInteractive=false
+> [debug] [2026-03-18T22:00:12.394Z] user supplied a 
+possible target for deployment or an extension
+> [debug] [2026-03-18T22:00:12.414Z] failed to find 
+extension command with name "vercel---prod"
+> [debug] [2026-03-18T22:00:12.463Z] Setting target 
+to production
+> [debug] [2026-03-18T22:00:12.503Z] Spinner invoked 
+(Retrieving projectÔÇª) with a 1000ms delay
+> [debug] [2026-03-18T22:00:12.504Z] Valid access 
+token, skipping token refresh.
+> [debug] [2026-03-18T22:00:12.525Z] #1 ÔåÆ GET https:
+//api.vercel.com/teams/team_WvPUHYnEUk6A36yi6JwpoTIw?t
+eamId=team_WvPUHYnEUk6A36yi6JwpoTIw
+> [debug] [2026-03-18T22:00:12.527Z] #2 ÔåÆ GET https:
+//api.vercel.com/v9/projects/prj_TgANQtm4cFjPEUlkvS7Fv
+7ngDQBu?teamId=team_WvPUHYnEUk6A36yi6JwpoTIw
+> [debug] [2026-03-18T22:00:13.258Z] #2 ÔåÉ 200 OK: 
+sfo1::f758v-1773871211994-ad659c0544f0 [731ms]
+> [debug] [2026-03-18T22:00:13.262Z] #1 ÔåÉ 200 OK: 
+sfo1::5n5qx-1773871212019-b6ef18152146 [737ms]
+> [debug] [2026-03-18T22:00:13.264Z] Error while 
+parsing repo data: ENOENT: no such file or directory, 
+open 'D:\Curso Forma├º├úo AI Designer\02 Criando 
+sites est├íticos com IA\Construindo site esta╠üticos 
+com IA\artools_final\artools\souza_gesso\.git\config'
+> [debug] [2026-03-18T22:00:13.265Z] Error while 
+parsing repo data: ENOENT: no such file or directory, 
+open 'D:\Curso Forma├º├úo AI Designer\02 Criando 
+sites est├íticos com IA\Construindo site esta╠üticos 
+com IA\artools_final\artools\souza_gesso\.git\config'
+> [debug] [2026-03-18T22:00:13.419Z] Spinner invoked 
+(Deploying jerfsonr-3179s-projects/souza-gesso) with 
+a 0ms delay
+[client-debug] 2026-03-18T22:00:13.419Z Creating 
+deployment...
+[client-debug] 2026-03-18T22:00:13.419Z Provided 
+'path' is a directory.
+[client-debug] 2026-03-18T22:00:13.421Z Found 26 
+rules in .vercelignore
+[client-debug] 2026-03-18T22:00:13.421Z Building file 
+tree...
+[client-debug] 2026-03-18T22:00:13.427Z Found 6 files 
+in the specified directory
+[client-debug] 2026-03-18T22:00:13.429Z Yielding a 
+'hashes-calculated' event with 6 hashes
+> [debug] [2026-03-18T22:00:13.430Z] #3 ÔåÆ GET https:
+//api.vercel.com/v9/projects/souza-gesso?teamId=team_W
+vPUHYnEUk6A36yi6JwpoTIw
+> [debug] [2026-03-18T22:00:13.727Z] #3 ÔåÉ 200 OK: 
+sfo1::nvskr-1773871212452-2c0d67903e71 [297ms]
+[client-debug] 2026-03-18T22:00:13.729Z Using 
+provided API URL: https://api.vercel.com
+[client-debug] 2026-03-18T22:00:13.730Z Using 
+provided user agent: vercel 50.33.1 node-v22.20.0 
+win32 (x64)
+[client-debug] 2026-03-18T22:00:13.730Z Setting 
+platform version to harcoded value 2
+[client-debug] 2026-03-18T22:00:13.730Z Creating the 
+deployment and starting upload...
+[client-debug] 2026-03-18T22:00:13.730Z Determining 
+necessary files for upload...
+[client-debug] 2026-03-18T22:00:13.731Z Creating 
+deployment
+[client-debug] 2026-03-18T22:00:13.731Z Sending 
+deployment creation API request
+[client-debug] 2026-03-18T22:00:14.092Z Deployment 
+response: 
+{"error":{"code":"missing_files","message":"Missing fi
+les","missing":["7ebce3ea9cf7f21794258e6d56d5197e702f3
+5b5"]}}
+[client-debug] 2026-03-18T22:00:14.092Z Error: 
+Deployment request status is 400
+[client-debug] 2026-03-18T22:00:14.092Z 1 files are 
+required to upload
+[client-debug] 2026-03-18T22:00:14.092Z Yielding a 
+'file-count' event
+> [debug] [2026-03-18T22:00:14.092Z] Total files 6, 1 
+changed
+> [debug] [2026-03-18T22:00:14.093Z] Spinner invoked 
+(Uploading [--------------------] (0.0B/5.1KB)) with 
+a 0ms delay
+[client-debug] 2026-03-18T22:00:14.093Z Building an 
+upload list...
+[client-debug] 2026-03-18T22:00:14.095Z Starting 
+upload
+[client-debug] 2026-03-18T22:00:14.095Z POST https://a
+pi.vercel.com/v2/files?teamId=team_WvPUHYnEUk6A36yi6Jw
+poTIw
+> [debug] [2026-03-18T22:00:14.097Z] Spinner invoked 
+(Uploading [====================] (5.1KB/5.1KB)) with 
+a 0ms delay
+[client-debug] 2026-03-18T22:00:14.464Z DONE in 
+369ms: POST https://api.vercel.com/v2/files?teamId=tea
+m_WvPUHYnEUk6A36yi6JwpoTIw
+[client-debug] 2026-03-18T22:00:14.464Z File 
+7ebce3ea9cf7f21794258e6d56d5197e702f35b5 (D:\Curso 
+Forma├º├úo AI Designer\02 Criando sites est├íticos 
+com IA\Construindo site esta╠üticos com 
+IA\artools_final\artools\souza_gesso\vercel-log.txt) 
+uploaded
+[client-debug] 2026-03-18T22:00:14.464Z Yielding a 
+'file-uploaded' event
+> [debug] [2026-03-18T22:00:14.464Z] Uploaded: 
+D:\Curso Forma├º├úo AI Designer\02 Criando sites 
+est├íticos com IA\Construindo site esta╠üticos com 
+IA\artools_final\artools\souza_gesso\vercel-log.txt 
+(5.09KB)
+[client-debug] 2026-03-18T22:00:14.464Z All files 
+uploaded
+[client-debug] 2026-03-18T22:00:14.464Z Yielding a 
+'all-files-uploaded' event
+[client-debug] 2026-03-18T22:00:14.464Z Starting 
+deployment creation
+[client-debug] 2026-03-18T22:00:14.464Z Creating 
+deployment
+[client-debug] 2026-03-18T22:00:14.465Z Sending 
+deployment creation API request
+[client-debug] 2026-03-18T22:00:16.026Z Deployment 
+response: {"alias":["souza-gesso-jerfsonr-3179s-projec
+ts.vercel.app","souza-gesso-jerfsonr-3179-jerfsonr-317
+9s-projects.vercel.app"],"aliasAssigned":false,"automa
+ticAliases":["souza-gesso-jerfsonr-3179s-projects.verc
+el.app","souza-gesso-jerfsonr-3179-jerfsonr-3179s-proj
+ects.vercel.app"],"bootedAt":1773871213626,"buildingAt
+":1773871213626,"buildSkipped":false,"createdAt":17738
+71213626,"creator":{"uid":"5TAGRLqrCL8AcFvZ6VEudPkX","
+username":"jerfsonr-3179"},"errorLink":"https://vercel
+.com/docs/deployments/troubleshoot-project-collaborati
+on#team-configuration","id":"dpl_8UxAbfC9Twyhpwh3QKZqz
+naZGvoW","initReadyAt":1773871213626,"name":"souza-ges
+so","meta":{"gitCommitAuthorName":"Rodrigo Tadewald","
+gitCommitAuthorEmail":"rodrigo.tadewald@gmail.com","gi
+tCommitMessage":"Hero finalizada.","gitCommitRef":"HEA
+D","gitCommitSha":"e40643c1b7a09b791a178419da90f9aae04
+acc96","gitDirty":"1","actor":"antigravity"},"originCa
+cheRegion":"iad1","project":{"id":"prj_TgANQtm4cFjPEUl
+kvS7Fv7ngDQBu","name":"souza-gesso","framework":"vite"
+},"public":false,"ready":1773871213626,"readyState":"E
+RROR","regions":["iad1"],"source":"cli","status":"ERRO
+R","target":"production","team":{"id":"team_WvPUHYnEUk
+6A36yi6JwpoTIw","name":"jerfsonr-3179's projects","slu
+g":"jerfsonr-3179s-projects"},"type":"LAMBDAS","url":"
+souza-gesso-kaqbxs7z3-jerfsonr-3179s-projects.vercel.a
+pp","version":2,"previewCommentsEnabled":true,"oidcTok
+enClaims":{"sub":"owner:jerfsonr-3179s-projects:projec
+t:souza-gesso:environment:production","iss":"https://o
+idc.vercel.com/jerfsonr-3179s-projects","scope":"owner
+:jerfsonr-3179s-projects:project:souza-gesso:environme
+nt:production","aud":"https://vercel.com/jerfsonr-3179
+s-projects","owner":"jerfsonr-3179s-projects","owner_i
+d":"team_WvPUHYnEUk6A36yi6JwpoTIw","project":"souza-ge
+sso","project_id":"prj_TgANQtm4cFjPEUlkvS7Fv7ngDQBu","
+environment":"production","plan":"hobby"},"readyStateR
+eason":"Git author rodrigo.tadewald@gmail.com must 
+have access to the team jerfsonr-3179's projects on 
+Vercel to create deployments.","lambdas":[{"id":"bld_e
+4j1q1ujv","createdAt":1773871214183,"entrypoint":".","
+readyState":"READY","readyStateAt":1773871214183,"outp
+ut":[]}],"aliasAssignedAt":null,"alwaysRefuseToBuild":
+true,"build":{"env":["CI","VERCEL","VERCEL_ENV","VERCE
+L_TARGET_ENV","TURBO_REMOTE_ONLY","TURBO_RUN_SUMMARY",
+"TURBO_DOWNLOAD_LOCAL_ENABLED","NX_DAEMON","TURBO_CACH
+E","VERCEL_URL","VERCEL_GIT_PROVIDER","VERCEL_GIT_PREV
+IOUS_SHA","VERCEL_GIT_REPO_SLUG","VERCEL_GIT_REPO_OWNE
+R","VERCEL_GIT_REPO_ID","VERCEL_GIT_COMMIT_REF","VERCE
+L_GIT_COMMIT_SHA","VERCEL_GIT_COMMIT_MESSAGE","VERCEL_
+GIT_COMMIT_AUTHOR_LOGIN","VERCEL_GIT_COMMIT_AUTHOR_NAM
+E","VERCEL_GIT_PULL_REQUEST_ID","TURBO_PLATFORM_ENV","
+VERCEL_DISCOVER_FOLDER_SIZES","VERCEL_LAMBDA_OUTPUTS_A
+S_MIDDLEWARE","VERCEL_NEXT_BUNDLED_SERVER","VERCEL_SER
+VERLESS_FUNCTION_FAILOVER","VERCEL_INVALIDATE_BUILD_CA
+CHE_ON_SIZE_EXCEEDED","USE_RUST_LAYER_LATEST","VERCEL_
+EDGE_FNS_ON_WORKERD","VERCEL_EDGE_FNS_ON_WORKERD_UNBUN
+DLED_FORMAT","VERCEL_EDGE_ON_SERVERLESS_NODE","VERCEL_
+EDGE_FNS_ON_SERVERLESS","VERCEL_EDGE_FNS_ON_SERVERLESS
+_USE_FILESYSTEM_CONTENT","VERCEL_NODE_BRIDGE_COMPRESS_
+MULTI_PAYLOADS","VERCEL_USE_BYTECODE_CACHING","VERCEL_
+COMPRESS_SERVERLESS_RESPONSE","VERCEL_SET_REQUESTED_AT
+_PRODUCTION_ON_DEPLOYMENT","VERCEL_FUNCTIONS_USE_BUN_R
+UNTIME","VERCEL_FUNCTIONS_USE_EXECUTABLE_RUNTIME","VER
+CEL_ENABLE_REGIONALIZED_ISR","VERCEL_COMPRESSED_ISR_BI
+LLING","VERCEL_ENABLE_PARALLEL_CACHE_DOWNLOAD","VERCEL
+_USE_DEFAULT_PNPM_10","VERCEL_ENABLE_PATH_LOOKUP_BLOOM
+_FILTER","VERCEL_ENABLE_UNCOMPRESSED_LAMBDA_SIZE_CHECK
+","VERCEL_USE_API_CONNECTORS","VERCEL_EDGE_MIDDLEWARE_
+WITH_NODEJS_24","VERCEL_EDGE_FUNCTIONS_WITH_NODEJS_24"
+,"VERCEL_DETECT_CRYPTO_MINER_IN_BUILD_LOG","NEXT_ENABL
+E_ADAPTER","VERCEL_SKIP_EDGE_FUNCTION_ENDPOINT","VERCE
+L_SKIP_FUNCTION_STATE_TRANSITION","VERCEL_COMPACT_LAMB
+DA_SUMMARY","VERCEL_SKIP_BUILD_TIME_STATIC_ASSET_COMPR
+ESSION","VERCEL_DEPLOYMENT_ID","VERCEL_PROJECT_ID","VE
+RCEL_PROJECT_NAME","VERCEL_PROJECT_PRODUCTION_URL","VE
+RCEL_OBSERVABILITY_CLIENT_CONFIG","NEXT_PUBLIC_VERCEL_
+OBSERVABILITY_CLIENT_CONFIG","REACT_APP_VERCEL_OBSERVA
+BILITY_CLIENT_CONFIG","PUBLIC_VERCEL_OBSERVABILITY_CLI
+ENT_CONFIG","VITE_VERCEL_OBSERVABILITY_CLIENT_CONFIG",
+"VERCEL_BUILD_OUTPUTS_POST_LAMBDA_SEMA","VERCEL_EDGE_M
+IDDLEWARE_MEMORY_SIZE","VERCEL_EDGE_FUNCTIONS_MEMORY_S
+IZE","VERCEL_EDGE_FUNCTIONS_BATCH_SIZE","VERCEL_OIDC_T
+OKEN","VERCEL_EDGE_FUNCTIONS_ENABLE_CREATE_FUNC_DEDUPE
+","VERCEL_EDGE_FUNCTIONS_USE_FILESYSTEM_CONTENT","NEXT
+_PRIVATE_MULTI_PAYLOAD","VERCEL_RICHER_DEPLOYMENT_OUTP
+UTS","VERCEL_SERVERLESS_SUSPENSE_CACHE","VERCEL_BUILD_
+MONOREPO_SUPPORT","VERCEL_USE_ONLY_STREAMING_LAMBDA","
+VERCEL_USE_STREAMING_PRERENDER","VERCEL_DEPLOYMENT_ROU
+TES_BUILD_OUTPUT_V1","VERCEL_DEPLOYMENT_ROUTES_CLEAN",
+"VERCEL_ENABLE_EXTENDED_FALLBACK_PAYLOAD","VERCEL_PRER
+ENDER_METADATA_AS_METADATA_FILE","VERCEL_PRERENDER_MET
+ADATA_BOUNDARY","VERCEL_CLI_ROLLOUT_VERSION","VERCEL_P
+RERENDER_METADATA_BYPASS_FOR","VERCEL_ENV_ENC_KEY","VE
+RCEL_ENCRYPTED_ENV_CONTENT","VERCEL_ENCRYPTED_ENV_FILE
+NAME"]},"builds":[],"createdIn":"sfo1","env":["CI","VE
+RCEL","VERCEL_ENV","VERCEL_TARGET_ENV","TURBO_REMOTE_O
+NLY","TURBO_RUN_SUMMARY","TURBO_DOWNLOAD_LOCAL_ENABLED
+","NX_DAEMON","TURBO_CACHE","VERCEL_URL","VERCEL_GIT_P
+ROVIDER","VERCEL_GIT_PREVIOUS_SHA","VERCEL_GIT_REPO_SL
+UG","VERCEL_GIT_REPO_OWNER","VERCEL_GIT_REPO_ID","VERC
+EL_GIT_COMMIT_REF","VERCEL_GIT_COMMIT_SHA","VERCEL_GIT
+_COMMIT_MESSAGE","VERCEL_GIT_COMMIT_AUTHOR_LOGIN","VER
+CEL_GIT_COMMIT_AUTHOR_NAME","VERCEL_GIT_PULL_REQUEST_I
+D","TURBO_PLATFORM_ENV","VERCEL_DISCOVER_FOLDER_SIZES"
+,"VERCEL_LAMBDA_OUTPUTS_AS_MIDDLEWARE","VERCEL_NEXT_BU
+NDLED_SERVER","VERCEL_SERVERLESS_FUNCTION_FAILOVER","V
+ERCEL_INVALIDATE_BUILD_CACHE_ON_SIZE_EXCEEDED","USE_RU
+ST_LAYER_LATEST","VERCEL_EDGE_FNS_ON_WORKERD","VERCEL_
+EDGE_FNS_ON_WORKERD_UNBUNDLED_FORMAT","VERCEL_EDGE_ON_
+SERVERLESS_NODE","VERCEL_EDGE_FNS_ON_SERVERLESS","VERC
+EL_EDGE_FNS_ON_SERVERLESS_USE_FILESYSTEM_CONTENT","VER
+CEL_NODE_BRIDGE_COMPRESS_MULTI_PAYLOADS","VERCEL_USE_B
+YTECODE_CACHING","VERCEL_COMPRESS_SERVERLESS_RESPONSE"
+,"VERCEL_SET_REQUESTED_AT_PRODUCTION_ON_DEPLOYMENT","V
+ERCEL_FUNCTIONS_USE_BUN_RUNTIME","VERCEL_FUNCTIONS_USE
+_EXECUTABLE_RUNTIME","VERCEL_ENABLE_REGIONALIZED_ISR",
+"VERCEL_COMPRESSED_ISR_BILLING","VERCEL_ENABLE_PARALLE
+L_CACHE_DOWNLOAD","VERCEL_USE_DEFAULT_PNPM_10","VERCEL
+_ENABLE_PATH_LOOKUP_BLOOM_FILTER","VERCEL_ENABLE_UNCOM
+PRESSED_LAMBDA_SIZE_CHECK","VERCEL_USE_API_CONNECTORS"
+,"VERCEL_EDGE_MIDDLEWARE_WITH_NODEJS_24","VERCEL_EDGE_
+FUNCTIONS_WITH_NODEJS_24","VERCEL_DETECT_CRYPTO_MINER_
+IN_BUILD_LOG","NEXT_ENABLE_ADAPTER","VERCEL_SKIP_EDGE_
+FUNCTION_ENDPOINT","VERCEL_SKIP_FUNCTION_STATE_TRANSIT
+ION","VERCEL_COMPACT_LAMBDA_SUMMARY","VERCEL_SKIP_BUIL
+D_TIME_STATIC_ASSET_COMPRESSION","VERCEL_DEPLOYMENT_ID
+","VERCEL_PROJECT_ID","VERCEL_PROJECT_NAME","VERCEL_PR
+OJECT_PRODUCTION_URL","VERCEL_OBSERVABILITY_CLIENT_CON
+FIG","NEXT_PUBLIC_VERCEL_OBSERVABILITY_CLIENT_CONFIG",
+"REACT_APP_VERCEL_OBSERVABILITY_CLIENT_CONFIG","PUBLIC
+_VERCEL_OBSERVABILITY_CLIENT_CONFIG","VITE_VERCEL_OBSE
+RVABILITY_CLIENT_CONFIG","VERCEL_BUILD_OUTPUTS_POST_LA
+MBDA_SEMA","VERCEL_EDGE_MIDDLEWARE_MEMORY_SIZE","VERCE
+L_EDGE_FUNCTIONS_MEMORY_SIZE","VERCEL_EDGE_FUNCTIONS_B
+ATCH_SIZE","VERCEL_OIDC_TOKEN","VERCEL_EDGE_FUNCTIONS_
+ENABLE_CREATE_FUNC_DEDUPE","VERCEL_EDGE_FUNCTIONS_USE_
+FILESYSTEM_CONTENT","NEXT_PRIVATE_MULTI_PAYLOAD","VERC
+EL_RICHER_DEPLOYMENT_OUTPUTS","VERCEL_SERVERLESS_SUSPE
+NSE_CACHE","VERCEL_BUILD_MONOREPO_SUPPORT","VERCEL_USE
+_ONLY_STREAMING_LAMBDA","VERCEL_USE_STREAMING_PRERENDE
+R","VERCEL_DEPLOYMENT_ROUTES_BUILD_OUTPUT_V1","VERCEL_
+DEPLOYMENT_ROUTES_CLEAN","VERCEL_ENABLE_EXTENDED_FALLB
+ACK_PAYLOAD","VERCEL_PRERENDER_METADATA_AS_METADATA_FI
+LE","VERCEL_PRERENDER_METADATA_BOUNDARY","VERCEL_CLI_R
+OLLOUT_VERSION","VERCEL_PRERENDER_METADATA_BYPASS_FOR"
+,"VERCEL_ENV_ENC_KEY","VERCEL_ENCRYPTED_ENV_CONTENT","
+VERCEL_ENCRYPTED_ENV_FILENAME"],"functions":null,"insp
+ectorUrl":"https://vercel.com/jerfsonr-3179s-projects/
+souza-gesso/8UxAbfC9Twyhpwh3QKZqznaZGvoW","isInConcurr
+entBuildsQueue":false,"isInSystemBuildsQueue":false,"o
+wnerId":"team_WvPUHYnEUk6A36yi6JwpoTIw","plan":"hobby"
+,"projectId":"prj_TgANQtm4cFjPEUlkvS7Fv7ngDQBu","proje
+ctSettings":{"buildCommand":null,"devCommand":null,"fr
+amework":"vite","commandForIgnoringBuildStep":null,"in
+stallCommand":null,"outputDirectory":null,"speedInsigh
+ts":{"id":"bMvSWFnkWeUovp7YG896RPeXrku","hasData":fals
+e},"webAnalytics":{"id":"taFUMaUztIytwRbp5sVGdFrLn"},"
+nodeVersion":"24.x"},"routes":null,"config":{"version"
+:1,"secureComputePrimaryRegion":null,"secureComputeFal
+lbackRegion":null,"functionTimeout":300,"functionType"
+:"fluid","functionMemoryType":"standard","isUsingActiv
+eCPU":true,"resourceConfig":{"buildQueue":{"configurat
+ion":"SKIP_NAMESPACE_QUEUE"}}},"seatBlock":{"blockCode
+":"TEAM_ACCESS_REQUIRED","isVerified":false}}
+[client-debug] 2026-03-18T22:00:16.027Z Deployment 
+created
+[client-debug] 2026-03-18T22:00:16.027Z Yielding a 
+'created' event
+Inspect: https://vercel.com/jerfsonr-3179s-projects/so
+uza-gesso/8UxAbfC9Twyhpwh3QKZqznaZGvoW [3s]
+Production: https://souza-gesso-kaqbxs7z3-jerfsonr-317
+9s-projects.vercel.app [3s]
+> [debug] [2026-03-18T22:00:16.029Z] Spinner invoked 
+(Building...) with a 0ms delay
+> [debug] [2026-03-18T22:00:16.029Z] #4 ÔåÆ GET 
+https://api.vercel.com/v2/user
+[client-debug] 2026-03-18T22:00:16.029Z Waiting for 
+deployment to be ready...
+[client-debug] 2026-03-18T22:00:16.030Z Waiting for 
+builds and the deployment to complete...
+> [debug] [2026-03-18T22:00:16.273Z] #4 ÔåÉ 200 OK: 
+sfo1::vr4p8-1773871215040-7be89e69e94c [244ms]
+> [debug] [2026-03-18T22:00:16.276Z] #5 ÔåÆ GET https:
+//api.vercel.com/v3/now/deployments/dpl_8UxAbfC9Twyhpw
+h3QKZqznaZGvoW/events?direction=forward&follow=1&forma
+t=lines&teamId=team_WvPUHYnEUk6A36yi6JwpoTIw
+[client-debug] 2026-03-18T22:00:16.520Z Yielding a 
+'error' event
+> [debug] [2026-03-18T22:00:16.521Z] Retrying: 
+AbortError: The user aborted a request.
+AbortError: The user aborted a request.
+    at abort2 (file:///C:/Users/jerfs/AppData/Local/np
+m-cache/_npx/67eb4586ca667318/node_modules/vercel/dist
+/chunks/chunk-QXRJ52T4.js:2796:23)
+    at AbortSignal.abortAndFinalize2 (file:///C:/Users
+/jerfs/AppData/Local/npm-cache/_npx/67eb4586ca667318/n
+ode_modules/vercel/dist/chunks/chunk-QXRJ52T4.js:2810:
+11)
+    at [nodejs.internal.kHybridDispatch] 
+(node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent 
+(node:internal/event_target:762:26)
+    at runAbort 
+(node:internal/abort_controller:486:10)
+    at abortSignal 
+(node:internal/abort_controller:457:3)
+    at AbortController.abort 
+(node:internal/abort_controller:505:5)
+    at stopSpinner (file:///C:/Users/jerfs/AppData/Loc
+al/npm-cache/_npx/67eb4586ca667318/node_modules/vercel
+/dist/chunks/chunk-RHUKJ7OR.js:4321:22)
+    at processDeployment (file:///C:/Users/jerfs/AppDa
+ta/Local/npm-cache/_npx/67eb4586ca667318/node_modules/
+vercel/dist/chunks/chunk-RHUKJ7OR.js:4474:9)
+    at process.processTicksAndRejections 
+(node:internal/process/task_queues:105:5)
+> [debug] [2026-03-18T22:00:16.523Z] Error: Error
+Error
+    at Now.handleDeploymentError (file:///C:/Users/jer
+fs/AppData/Local/npm-cache/_npx/67eb4586ca667318/node_
+modules/vercel/dist/chunks/chunk-RHUKJ7OR.js:4719:12)
+    at processDeployment (file:///C:/Users/jerfs/AppDa
+ta/Local/npm-cache/_npx/67eb4586ca667318/node_modules/
+vercel/dist/chunks/chunk-RHUKJ7OR.js:4481:33)
+    at process.processTicksAndRejections 
+(node:internal/process/task_queues:105:5)
+    at async Now.create (file:///C:/Users/jerfs/AppDat
+a/Local/npm-cache/_npx/67eb4586ca667318/node_modules/v
+ercel/dist/chunks/chunk-RHUKJ7OR.js:4611:24)
+    at async createDeploy (file:///C:/Users/jerfs/AppD
+ata/Local/npm-cache/_npx/67eb4586ca667318/node_modules
+/vercel/dist/commands/deploy/index.js:177:12)
+    at async handleDefaultDeploy (file:///C:/Users/jer
+fs/AppData/Local/npm-cache/_npx/67eb4586ca667318/node_
+modules/vercel/dist/commands/deploy/index.js:1305:18)
+    at async main (file:///C:/Users/jerfs/AppData/Loca
+l/npm-cache/_npx/67eb4586ca667318/node_modules/vercel/
+dist/index.js:24152:18)
+> [debug] [2026-03-18T22:00:16.523Z] handling error: 
+Error
+    at Now.handleDeploymentError (file:///C:/Users/jer
+fs/AppData/Local/npm-cache/_npx/67eb4586ca667318/node_
+modules/vercel/dist/chunks/chunk-RHUKJ7OR.js:4719:12)
+    at processDeployment (file:///C:/Users/jerfs/AppDa
+ta/Local/npm-cache/_npx/67eb4586ca667318/node_modules/
+vercel/dist/chunks/chunk-RHUKJ7OR.js:4481:33)
+    at process.processTicksAndRejections 
+(node:internal/process/task_queues:105:5)
+    at async Now.create (file:///C:/Users/jerfs/AppDat
+a/Local/npm-cache/_npx/67eb4586ca667318/node_modules/v
+ercel/dist/chunks/chunk-RHUKJ7OR.js:4611:24)
+    at async createDeploy (file:///C:/Users/jerfs/AppD
+ata/Local/npm-cache/_npx/67eb4586ca667318/node_modules
+/vercel/dist/commands/deploy/index.js:177:12)
+    at async handleDefaultDeploy (file:///C:/Users/jer
+fs/AppData/Local/npm-cache/_npx/67eb4586ca667318/node_
+modules/vercel/dist/commands/deploy/index.js:1305:18)
+    at async main (file:///C:/Users/jerfs/AppData/Loca
+l/npm-cache/_npx/67eb4586ca667318/node_modules/vercel/
+dist/index.js:24152:18)
+Error: Unexpected error. Please try again later. ()
+> [debug] [2026-03-18T22:00:16.524Z] #6 ÔåÆ GET 
+https://api.vercel.com/v2/user
+> [debug] [2026-03-18T22:00:16.791Z] #6 ÔåÉ 200 OK: 
+sfo1::nfnff-1773871215546-560fbf4acbb9 [267ms]
+> [debug] [2026-03-18T22:00:17.533Z] #7 ÔåÆ GET https:
+//api.vercel.com/v3/now/deployments/dpl_8UxAbfC9Twyhpw
+h3QKZqznaZGvoW/events?direction=forward&follow=1&forma
+t=lines&teamId=team_WvPUHYnEUk6A36yi6JwpoTIw
+> [debug] [2026-03-18T22:00:17.533Z] Retrying: 
+AbortError: The user aborted a request.
+AbortError: The user aborted a request.
+    at abort2 (file:///C:/Users/jerfs/AppData/Local/np
+m-cache/_npx/67eb4586ca667318/node_modules/vercel/dist
+/chunks/chunk-QXRJ52T4.js:2796:23)
+    at file:///C:/Users/jerfs/AppData/Local/npm-cache/
+_npx/67eb4586ca667318/node_modules/vercel/dist/chunks/
+chunk-QXRJ52T4.js:2806:11
+    at new Promise (<anonymous>)
+    at fetch (file:///C:/Users/jerfs/AppData/Local/npm
+-cache/_npx/67eb4586ca667318/node_modules/vercel/dist/
+chunks/chunk-QXRJ52T4.js:2789:14)
+    at Client._fetch (file:///C:/Users/jerfs/AppData/L
+ocal/npm-cache/_npx/67eb4586ca667318/node_modules/verc
+el/dist/chunks/chunk-Z3WSSW7K.js:4079:38)
+    at async file:///C:/Users/jerfs/AppData/Local/npm-
+cache/_npx/67eb4586ca667318/node_modules/vercel/dist/c
+hunks/chunk-Z3WSSW7K.js:4084:19
+    at async retries (file:///C:/Users/jerfs/AppData/L
+ocal/npm-cache/_npx/67eb4586ca667318/node_modules/verc
+el/dist/chunks/chunk-RHUKJ7OR.js:3904:27)
+    at async printEvents (file:///C:/Users/jerfs/AppDa
+ta/Local/npm-cache/_npx/67eb4586ca667318/node_modules/
+vercel/dist/chunks/chunk-RHUKJ7OR.js:3886:3)
+> [debug] [2026-03-18T22:00:18.068Z] Telemetry event 
+tracked
+> [debug] [2026-03-18T22:00:18.781Z] Telemetry 
+subprocess exited with code 0
+> [debug] [2026-03-18T22:00:18.810Z] Telemetry 
+subprocess killed due to timeout
+> [debug] [2026-03-18T22:00:19.542Z] #8 ÔåÆ GET https:
+//api.vercel.com/v3/now/deployments/dpl_8UxAbfC9Twyhpw
+h3QKZqznaZGvoW/events?direction=forward&follow=1&forma
+t=lines&teamId=team_WvPUHYnEUk6A36yi6JwpoTIw
+> [debug] [2026-03-18T22:00:19.542Z] Retrying: 
+AbortError: The user aborted a request.
+AbortError: The user aborted a request.
+    at abort2 (file:///C:/Users/jerfs/AppData/Local/np
+m-cache/_npx/67eb4586ca667318/node_modules/vercel/dist
+/chunks/chunk-QXRJ52T4.js:2796:23)
+    at file:///C:/Users/jerfs/AppData/Local/npm-cache/
+_npx/67eb4586ca667318/node_modules/vercel/dist/chunks/
+chunk-QXRJ52T4.js:2806:11
+    at new Promise (<anonymous>)
+    at fetch (file:///C:/Users/jerfs/AppData/Local/npm
+-cache/_npx/67eb4586ca667318/node_modules/vercel/dist/
+chunks/chunk-QXRJ52T4.js:2789:14)
+    at Client._fetch (file:///C:/Users/jerfs/AppData/L
+ocal/npm-cache/_npx/67eb4586ca667318/node_modules/verc
+el/dist/chunks/chunk-Z3WSSW7K.js:4079:38)
+    at async file:///C:/Users/jerfs/AppData/Local/npm-
+cache/_npx/67eb4586ca667318/node_modules/vercel/dist/c
+hunks/chunk-Z3WSSW7K.js:4084:19
+    at async retries (file:///C:/Users/jerfs/AppData/L
+ocal/npm-cache/_npx/67eb4586ca667318/node_modules/verc
+el/dist/chunks/chunk-RHUKJ7OR.js:3904:27)
+    at async printEvents (file:///C:/Users/jerfs/AppDa
+ta/Local/npm-cache/_npx/67eb4586ca667318/node_modules/
+vercel/dist/chunks/chunk-RHUKJ7OR.js:3886:3)
+> [debug] [2026-03-18T22:00:23.543Z] #9 ÔåÆ GET https:
+//api.vercel.com/v3/now/deployments/dpl_8UxAbfC9Twyhpw
+h3QKZqznaZGvoW/events?direction=forward&follow=1&forma
+t=lines&teamId=team_WvPUHYnEUk6A36yi6JwpoTIw
+https://souza-gesso-kaqbxs7z3-jerfsonr-3179s-projects.vercel.app
