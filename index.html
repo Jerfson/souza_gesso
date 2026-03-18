@@ -35,13 +35,13 @@
                 <span class="font-bold tracking-tighter text-2xl uppercase">Souza Gesso<span class="text-neutral-400 font-light">.</span></span>
             </div>
             <nav class="hidden md:flex gap-10">
-                <a href="#" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Serviços</a>
-                <a href="#" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Portfólio</a>
-                <a href="#" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Contato</a>
+                <a href="#servicos" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Serviços</a>
+                <a href="#portfolio" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Portfólio</a>
+                <a href="#contato" class="text-xs font-mono uppercase tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">Contato</a>
             </nav>
-            <button class="px-8 py-3 bg-black text-white rounded-full text-xs font-mono uppercase tracking-widest hover:bg-neutral-800 transition-colors shadow-lg shadow-black/10 hover:-translate-y-0.5 transform">
+            <a href="#contato" class="px-8 py-3 bg-black text-white rounded-full text-xs font-mono uppercase tracking-widest hover:bg-neutral-800 transition-colors shadow-lg shadow-black/10 hover:-translate-y-0.5 transform cursor-pointer border-none no-underline text-center">
                 Orçamento
-            </button>
+            </a>
         </div>
     </header>
 
@@ -82,19 +82,19 @@
 
                 <!-- Botões Abaixo -->
                 <div class="flex flex-col sm:flex-row gap-5 motion-enter delay-500 items-start">
-                    <!-- Botão Primário c/ Animação Halo/Beam -->
-                    <button class="beam-btn group w-full sm:w-auto">
+                    <!-- Botão Primário c/ Animação Halo/Beam apontando para Serviços -->
+                    <a href="#servicos" class="beam-btn group w-full sm:w-auto cursor-pointer no-underline">
                         <div class="beam-spinner"></div>
                         <div class="beam-btn-content flex items-center gap-3 w-full sm:w-auto justify-center">
                             <span>Ver Especialidades</span>
                             <iconify-icon icon="solar:arrow-right-linear" class="text-lg group-hover:translate-x-1 transition-transform"></iconify-icon>
                         </div>
-                    </button>
-                    <!-- Botão Secundário Minimalista -->
-                    <button class="px-8 py-[18px] border border-neutral-200 text-neutral-900 rounded-full text-xs font-mono uppercase tracking-widest hover:border-black hover:bg-neutral-50 transition-all inline-flex items-center justify-center gap-3 w-full sm:w-auto">
+                    </a>
+                    <!-- Botão Secundário Minimalista apontando direto pro WhatsApp -->
+                    <a href="https://wa.me/559884832765?text=Olá! Gostaria de falar sobre um projeto com a Souza Gesso." target="_blank" class="px-8 py-[18px] border border-neutral-200 text-neutral-900 rounded-full text-xs font-mono uppercase tracking-widest hover:border-black hover:bg-neutral-50 transition-all inline-flex items-center justify-center gap-3 w-full sm:w-auto cursor-pointer no-underline">
                         <iconify-icon icon="solar:phone-calling-linear" class="text-lg"></iconify-icon>
                         <span>WhatsApp</span>
-                    </button>
+                    </a>
                 </div>
 
             </div>
@@ -107,8 +107,8 @@
                 <!-- Wrapper com overflow escondido para o Parallax Mágico -->
                 <div class="parallax-wrap w-full h-full lg:w-[95%] lg:h-[95%] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] relative">
                     
-                    <!-- Imagem de Luxo / Gesso - É aqui que a mágica GSAP acontece -->
-                    <img src="https://images.unsplash.com/photo-1600566753086-00f18efc204b?auto=format&fit=crop&q=80" alt="Souza Gesso Interior Design" class="parallax-image" id="hero-img" />
+                    <!-- Imagem de Luxo / Gesso de alto impacto visual -->
+                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80" alt="Souza Gesso Interior Design de Alto Padrão" class="parallax-image" id="hero-img" style="object-position: center;" />
                     
                     <!-- Gradiente sutil para garantir contraste do texto flutuante -->
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none"></div>
@@ -150,14 +150,293 @@
 
         </section>
 
-        <!-- Seção invisível apenas para adicionar área de rolagem para ver o Parallax -->
-        <section class="max-w-[1440px] mx-auto px-6 md:px-12 py-40 mt-32 text-center opacity-40">
-            <iconify-icon icon="solar:mouse-circle-linear" class="text-5xl text-neutral-400 mb-6 animate-bounce"></iconify-icon>
-            <h2 class="text-xl font-light font-mono uppercase tracking-[0.2em] mb-2">Role a tela</h2>
-            <p class="text-neutral-500">Note o comportamento avançado de parallax e smooth scroll.</p>
+        <!-- ==========================================
+             SEÇÃO 2: AUTORIDADE / NÚMEROS (Transição)
+             ========================================== -->
+        <section class="max-w-[1440px] mx-auto px-6 md:px-12 my-24 lg:my-32 relative z-20">
+            <!-- Container com Glassmorphism Reverso / Dark Mode -->
+            <div class="bg-neutral-950 text-white rounded-[2rem] p-8 md:p-12 relative overflow-hidden shadow-2xl motion-enter delay-300">
+                
+                <!-- Glow Effect no Background do Container -->
+                <div class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+                <div class="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 pointer-events-none"></div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 relative z-10 divide-y md:divide-y-0 md:divide-x divide-white/10">
+                    
+                    <!-- Métrica 1 -->
+                    <div class="flex flex-col items-center md:items-start text-center md:text-left pb-6 md:pb-0 md:px-8 first:pt-0 md:first:pl-0">
+                        <div class="flex items-baseline gap-1 mb-3">
+                            <span class="text-5xl lg:text-6xl font-bold font-mono tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60">+10</span>
+                            <span class="text-white/40 font-mono text-sm uppercase tracking-widest">anos</span>
+                        </div>
+                        <h4 class="text-sm font-medium tracking-widest uppercase text-white/90 mb-2">Experiência</h4>
+                        <p class="text-sm font-light text-white/50 leading-relaxed max-w-[250px]">Atuando no mercado de acabamentos premium e design de interiores em gesso.</p>
+                    </div>
+
+                    <!-- Métrica 2 -->
+                    <div class="flex flex-col items-center md:items-start text-center md:text-left py-6 md:py-0 md:px-8">
+                        <div class="flex items-baseline gap-1 mb-3">
+                            <span class="text-5xl lg:text-6xl font-bold font-mono tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60">+500</span>
+                        </div>
+                        <h4 class="text-sm font-medium tracking-widest uppercase text-white/90 mb-2">Projetos Entregues</h4>
+                        <p class="text-sm font-light text-white/50 leading-relaxed max-w-[250px]">Obras executadas com perfeição, pontualidade e zero dor de cabeça para o cliente.</p>
+                    </div>
+
+                    <!-- Métrica 3 -->
+                    <div class="flex flex-col items-center md:items-start text-center md:text-left pt-6 md:pb-0 md:pt-0 md:px-8 last:pb-0 md:last:pr-0">
+                        <div class="flex items-center gap-3 mb-3 h-[48px] lg:h-[60px]">
+                            <!-- Ícone minimalista premium -->
+                            <iconify-icon icon="solar:shield-check-line-duotone" class="text-5xl lg:text-6xl text-white/90"></iconify-icon>
+                        </div>
+                        <h4 class="text-sm font-medium tracking-widest uppercase text-white/90 mb-2">Garantia Total</h4>
+                        <p class="text-sm font-light text-white/50 leading-relaxed max-w-[250px]">Materiais certificados, execução rigorosa e estruturas 100% anti-trinca.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        </section>
+
+        <!-- ==========================================
+             SEÇÃO 3: NOSSOS SERVIÇOS
+             ========================================== -->
+        <section id="servicos" class="max-w-[1440px] mx-auto px-6 md:px-12 py-24 md:py-32 relative z-10">
+            
+            <!-- Cabeçalho da Seção -->
+            <div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8 motion-enter delay-100">
+                <div class="max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-black/10 bg-white/50 backdrop-blur mb-6 shadow-sm">
+                        <span class="text-[10px] font-mono uppercase tracking-[0.2em] text-neutral-700">Especialidades</span>
+                    </div>
+                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-neutral-900 leading-tight">
+                        Soluções em gesso para <span class="text-transparent-stroke" data-text="projetos">projetos</span> exigentes.
+                    </h2>
+                </div>
+                <!-- Descrição Adicional Alinhada à Direita (Desktop) -->
+                <p class="text-neutral-500 font-light max-w-sm text-base md:text-lg pb-1">
+                    Combinamos técnica impecável com materiais de alta resistência para entregar ambientes sofisticados.
+                </p>
+            </div>
+
+            <!-- Grid de Serviços Elegante -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Serviço 1: Drywall -->
+                <div class="group relative rounded-3xl bg-neutral-50/50 hover:bg-neutral-950 border border-black/5 p-8 transition-colors duration-[400ms] overflow-hidden cursor-pointer block motion-enter delay-200">
+                    <iconify-icon icon="solar:layers-bold-duotone" class="text-4xl text-neutral-900 group-hover:text-white transition-colors duration-500 mb-6"></iconify-icon>
+                    <h3 class="text-xl font-bold tracking-tight text-neutral-900 group-hover:text-white transition-colors duration-500 mb-3">Forros e Drywall</h3>
+                    <p class="text-sm text-neutral-500 group-hover:text-neutral-400 transition-colors duration-500 font-light leading-relaxed">
+                        Nivelamento estrutural perfeito, isolamento acústico superior e preparação limpa para projetos de iluminação.
+                    </p>
+                    <div class="mt-8 flex items-center gap-2 uppercase tracking-widest text-[10px] font-mono text-black group-hover:text-white transition-colors duration-500 font-bold">
+                        <span>Detalhes</span>
+                        <iconify-icon icon="solar:arrow-right-linear" class="group-hover:translate-x-1 transition-transform"></iconify-icon>
+                    </div>
+                </div>
+
+                <!-- Serviço 2: Sancas -->
+                <div class="group relative rounded-3xl bg-neutral-50/50 hover:bg-neutral-950 border border-black/5 p-8 transition-colors duration-[400ms] overflow-hidden cursor-pointer block motion-enter delay-300">
+                    <iconify-icon icon="solar:lightbulb-bolt-bold-duotone" class="text-4xl text-neutral-900 group-hover:text-white transition-colors duration-500 mb-6"></iconify-icon>
+                    <h3 class="text-xl font-bold tracking-tight text-neutral-900 group-hover:text-white transition-colors duration-500 mb-3">Sancas Iluminadas</h3>
+                    <p class="text-sm text-neutral-500 group-hover:text-neutral-400 transition-colors duration-500 font-light leading-relaxed">
+                        Sancas abertas, fechadas e invertidas. Rasgos de luz milimétricos que transformam a percepção de espaço.
+                    </p>
+                    <div class="mt-8 flex items-center gap-2 uppercase tracking-widest text-[10px] font-mono text-black group-hover:text-white transition-colors duration-500 font-bold">
+                        <span>Detalhes</span>
+                        <iconify-icon icon="solar:arrow-right-linear" class="group-hover:translate-x-1 transition-transform"></iconify-icon>
+                    </div>
+                </div>
+
+                <!-- Serviço 3: Divisórias -->
+                <div class="group relative rounded-3xl bg-neutral-50/50 hover:bg-neutral-950 border border-black/5 p-8 transition-colors duration-[400ms] overflow-hidden cursor-pointer block motion-enter delay-400">
+                    <iconify-icon icon="solar:wall-bold-duotone" class="text-4xl text-neutral-900 group-hover:text-white transition-colors duration-500 mb-6"></iconify-icon>
+                    <h3 class="text-xl font-bold tracking-tight text-neutral-900 group-hover:text-white transition-colors duration-500 mb-3">Paredes e Divisórias</h3>
+                    <p class="text-sm text-neutral-500 group-hover:text-neutral-400 transition-colors duration-500 font-light leading-relaxed">
+                        Redefinição rápida de plantas interiore sem sujeira, com altíssima durabilidade e personalização estrutural.
+                    </p>
+                    <div class="mt-8 flex items-center gap-2 uppercase tracking-widest text-[10px] font-mono text-black group-hover:text-white transition-colors duration-500 font-bold">
+                        <span>Detalhes</span>
+                        <iconify-icon icon="solar:arrow-right-linear" class="group-hover:translate-x-1 transition-transform"></iconify-icon>
+                    </div>
+                </div>
+
+                <!-- Serviço 4: Gesso 3D / Decoração -->
+                <div class="group relative rounded-3xl bg-neutral-50/50 hover:bg-neutral-950 border border-black/5 p-8 transition-colors duration-[400ms] overflow-hidden cursor-pointer block motion-enter delay-500">
+                    <iconify-icon icon="solar:pen-bold-duotone" class="text-4xl text-neutral-900 group-hover:text-white transition-colors duration-500 mb-6"></iconify-icon>
+                    <h3 class="text-xl font-bold tracking-tight text-neutral-900 group-hover:text-white transition-colors duration-500 mb-3">Revestimento 3D</h3>
+                    <p class="text-sm text-neutral-500 group-hover:text-neutral-400 transition-colors duration-500 font-light leading-relaxed">
+                        Design de interiores autêntico com painéis tridimensionais, nichos embutidos e sanca moldada.
+                    </p>
+                    <div class="mt-8 flex items-center gap-2 uppercase tracking-widest text-[10px] font-mono text-black group-hover:text-white transition-colors duration-500 font-bold">
+                        <span>Detalhes</span>
+                        <iconify-icon icon="solar:arrow-right-linear" class="group-hover:translate-x-1 transition-transform"></iconify-icon>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
+        </section>
+
+        <!-- ==========================================
+             SEÇÃO 4: PORTFÓLIO (Galeria de Projetos)
+             ========================================== -->
+        <section id="portfolio" class="max-w-[1440px] mx-auto px-6 md:px-12 py-24 md:py-32 relative z-10 overflow-hidden">
+            
+            <!-- Fundo dinâmico sutil -->
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[800px] h-[800px] bg-gradient-to-tr from-neutral-200/30 to-white/0 rounded-full blur-[100px] opacity-50 pointer-events-none -z-10"></div>
+
+            <!-- Cabeçalho Centralizado -->
+            <div class="text-center max-w-3xl mx-auto mb-20 motion-enter delay-100">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-black/10 bg-white/50 backdrop-blur mb-6 shadow-sm mx-auto">
+                    <span class="text-[10px] font-mono uppercase tracking-[0.2em] text-neutral-700">Portfólio Selecionado</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-neutral-900 leading-tight mb-6">
+                    A excelência Mora nos <span class="block mt-2 italic font-serif opacity-90">Detalhes.</span>
+                </h2>
+                <p class="text-neutral-500 font-light text-base md:text-lg px-4">
+                    Explore uma curadoria dos nossos projetos mais recentes, onde a precisão técnica e o design excepcional se encontram.
+                </p>
+            </div>
+
+            <!-- Grid de Mosaico (Estilo Apple) -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 w-full auto-rows-[300px] lg:auto-rows-[400px]">
+                
+                <!-- Imagem Destaque 1 (Span 8) -->
+                <div class="md:col-span-8 group relative rounded-[2rem] overflow-hidden bg-neutral-100 motion-enter delay-200 shadow-sm border border-black/5 hover:shadow-2xl hover:-translate-y-1 transition-all duration-700 cursor-pointer">
+                    <!-- Imagem Dummy (Unsplash) - Troque pelo seu trabalho depois -->
+                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80" alt="Sanca invertida iluminada de alto padrão" class="w-full h-full object-cover transition-transform duration-[1.5s] ease-in-out group-hover:scale-110">
+                    
+                    <!-- Gradiente e Conteúdo -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 md:p-10">
+                        <span class="text-xs font-mono uppercase tracking-widest text-white/70 mb-2">Residencial Premium</span>
+                        <h3 class="text-2xl font-bold text-white tracking-tight mb-1">Sanca Aberta Iluminada</h3>
+                        <p class="text-white/60 font-light text-sm max-w-md hidden sm:block">Projeto de iluminação indireta que transformou completamente a percepção de pé-direito do ambiente.</p>
+                    </div>
+
+                    <!-- Botão Flutuante 'Ver Mais' (Aparece no hover) -->
+                    <div class="absolute top-8 right-8 w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
+                        <iconify-icon icon="solar:maximize-square-minimalistic-linear" class="text-xl"></iconify-icon>
+                    </div>
+                </div>
+
+                <!-- Imagem Secundária 2 (Span 4) -->
+                <div class="md:col-span-4 group relative rounded-[2rem] overflow-hidden bg-neutral-100 motion-enter delay-300 shadow-sm border border-black/5 hover:shadow-2xl hover:-translate-y-1 transition-all duration-700 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80" alt="Parede em gesso 3D e nichos" class="w-full h-full object-cover transition-transform duration-[1.5s] ease-in-out group-hover:scale-110">
+                    
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+                        <span class="text-xs font-mono uppercase tracking-widest text-white/70 mb-2">Comercial Boutique</span>
+                        <h3 class="text-xl font-bold text-white tracking-tight mb-1">Divisória Acústica e Decorativa</h3>
+                    </div>
+                </div>
+
+                <!-- Imagem Secundária 3 (Span 5) -->
+                <div class="md:col-span-5 group relative rounded-[2rem] overflow-hidden bg-neutral-100 motion-enter delay-400 shadow-sm border border-black/5 hover:shadow-2xl hover:-translate-y-1 transition-all duration-700 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&q=80" alt="Isolamento acústico em escritório" class="w-full h-full object-cover transition-transform duration-[1.5s] ease-in-out group-hover:scale-110 object-bottom">
+                    
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+                        <span class="text-xs font-mono uppercase tracking-widest text-white/70 mb-2">Corporativo Alto Padrão</span>
+                        <h3 class="text-xl font-bold text-white tracking-tight mb-1">Painéis 3D</h3>
+                    </div>
+                </div>
+
+                <!-- Imagem Destaque 4 (Span 7) -->
+                <div class="md:col-span-7 group relative rounded-[2rem] overflow-hidden bg-neutral-100 motion-enter delay-500 shadow-sm border border-black/5 hover:shadow-2xl hover:-translate-y-1 transition-all duration-700 cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80" alt="Acabamento Premium completo" class="w-full h-full object-cover transition-transform duration-[1.5s] ease-in-out group-hover:scale-110">
+                    
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 md:p-10">
+                        <span class="text-xs font-mono uppercase tracking-widest text-white/70 mb-2">Mansões / Acabamento Crítico</span>
+                        <h3 class="text-xl font-bold text-white tracking-tight mb-1">Forro Nivelado à Lazer com Sanca Curva</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botão Ver Mais Centrado Abaixo da Galeria -->
+            <div class="mt-16 text-center motion-enter delay-[600ms]">
+                <button class="px-8 py-[18px] border border-neutral-200 text-neutral-900 rounded-full text-xs font-mono uppercase tracking-widest hover:border-black hover:bg-black hover:text-white transition-all inline-flex items-center justify-center gap-3">
+                    <iconify-icon icon="solar:gallery-wide-linear" class="text-lg"></iconify-icon>
+                    <span>Carregar Mais Projetos</span>
+                </button>
+            </div>
+
+        </section>
+
+        </section>
+
+        <!-- ==========================================
+             SEÇÃO 5: CONTATO & CALL TO ACTION
+             ========================================== -->
+        <section id="contato" class="max-w-[1440px] mx-auto px-6 md:px-12 py-24 md:py-32 relative z-10">
+            <div class="bg-neutral-950 text-white rounded-[2rem] p-8 md:p-16 lg:p-24 relative overflow-hidden shadow-2xl flex flex-col items-center text-center motion-enter delay-200">
+                
+                <!-- Glow Effect no Background -->
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[600px] h-[600px] bg-white/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+                <!-- Conteúdo Frontal -->
+                <div class="relative z-10 max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur mb-8">
+                        <span class="text-[10px] font-mono uppercase tracking-[0.2em] text-white/80">Faça um Orçamento</span>
+                    </div>
+                    
+                    <h2 class="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tighter text-white leading-tight mb-8">
+                        Seu próximo projeto em <span class="block italic font-serif font-light text-white/80 mt-2">Santo Amaro.</span>
+                    </h2>
+                    
+                    <p class="text-white/60 font-light text-base md:text-lg mb-12 max-w-xl mx-auto leading-relaxed">
+                        Pronto para transformar seu ambiente com um acabamento irretocável? Nossa equipe de especialistas está a uma mensagem de distância.
+                    </p>
+
+                    <!-- Botão de WhatsApp GIGANTE -->
+                    <a href="https://wa.me/559884832765?text=Olá! Gostaria de falar sobre um projeto com a Souza Gesso." target="_blank" class="inline-flex items-center justify-center gap-4 bg-white text-black px-8 md:px-12 py-5 rounded-full font-mono uppercase tracking-widest text-sm font-bold hover:bg-neutral-200 hover:scale-105 transition-all duration-300 shadow-[0_0_40px_-5px_rgba(255,255,255,0.3)]">
+                        <iconify-icon icon="logos:whatsapp-icon" class="text-2xl drop-shadow-md"></iconify-icon>
+                        Chamar no WhatsApp
+                    </a>
+                </div>
+
+            </div>
         </section>
 
     </main>
+
+    <!-- ==========================================
+         RODAPÉ (Footer Minimalista)
+         ========================================== -->
+    <footer class="border-t border-black/5 bg-white relative z-10">
+        <div class="max-w-[1440px] mx-auto px-6 md:px-12 py-12 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-6 text-center md:text-left">
+            
+            <!-- Marcação & Endereço -->
+            <div class="flex flex-col gap-2">
+                <div class="font-bold tracking-tighter text-xl uppercase">Souza Gesso<span class="text-neutral-400 font-light">.</span></div>
+                <div class="text-xs font-light text-neutral-500 max-w-xs leading-relaxed flex items-start gap-2 justify-center md:justify-start">
+                    <iconify-icon icon="solar:map-point-linear" class="text-lg flex-shrink-0 relative top-px"></iconify-icon>
+                    Rua Boa Esperança, bairro Olho D'água<br>
+                    Santo Amaro - Maranhão
+                </div>
+            </div>
+
+            <!-- Links Básicos -->
+            <div class="flex flex-col items-center gap-4">
+                <div class="flex items-center gap-6 text-xs font-mono uppercase tracking-widest text-neutral-500">
+                    <a href="#" class="hover:text-black transition-colors">Instagram</a>
+                    <span class="w-1 h-1 rounded-full bg-neutral-300"></span>
+                    <a href="#" class="hover:text-black transition-colors">Facebook</a>
+                </div>
+                <div class="text-[10px] font-light text-neutral-400 uppercase tracking-widest">
+                    &copy; <span id="currentYear">2026</span> Souza Gesso. Alto Padrão.
+                </div>
+            </div>
+
+            <!-- Botão Secundário de Retorno -->
+            <div class="hidden md:block">
+                <a href="#" onclick="window.scrollTo(0,0); return false;" class="w-12 h-12 rounded-full border border-black/10 flex items-center justify-center hover:bg-black hover:text-white transition-colors">
+                    <iconify-icon icon="solar:arrow-up-linear" class="text-xl"></iconify-icon>
+                </a>
+            </div>
+
+        </div>
+    </footer>
 
     <!-- BIBLIOTECAS (CDNs) ESSENCIAIS PARA EXPERIÊNCIA APPLE (Recomendação baseada no pedido) -->
 
