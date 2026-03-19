@@ -77,9 +77,8 @@ body {
 
 /* Glow Cards - Detalhes à direita */
 .glow-card {
-    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(20px);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
     overflow: hidden;
     transition: box-shadow 0.3s, transform 0.4s var(--ease-out-expo);
